@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.wrapperRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.wrapperRow Button {
+    background-color: #f1c40f;
+  }
+
+.wrapperRow button:hover {
+      background-color: #f1c40f;
+  }

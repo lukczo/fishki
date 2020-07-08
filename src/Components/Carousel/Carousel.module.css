@@ -1,0 +1,28 @@
+.Picture {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 450px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.Hero1 {
+    background-image: url('../../Resources/hero1.jpg')
+}
+.Hero2 {
+    background-image: url('../../Resources/hero2.jpg')
+}
+.Hero3 {
+    background-image: url('../../Resources/hero3.jpg')
+}
+.Hero4 {
+    background-image: url('../../Resources/hero4.jpg')
+}
+
+@media (max-width: 700px) {
+.Picture {
+    width: 100vw;
+}
+}
